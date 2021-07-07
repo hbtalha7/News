@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>      
       <Route path="/feedback" component={Feedbacksceen}></Route>
       <Route path="/newcontent/:id" component={Newscontent}></Route>
-      <Route path="/" component={HomeScreen} exact></Route>
+      <Route path="/" component={HomeScreen}></Route>
     </BrowserRouter>
   );
 }
